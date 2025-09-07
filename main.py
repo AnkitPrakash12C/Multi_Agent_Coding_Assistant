@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 from CodingAgents import (
     error_finder_agent, code_debugger_agent,
     concept_explainer_agent, assignment_generator_agent
