@@ -16,7 +16,8 @@ This is where a multi-agent system really shines. Tutoring isn't just one job; i
 
 The application is powered by a team of four specialist AI agents that work together in a sequence to provide a complete analysis for the user. First, the user inputs their code into the Streamlit interface.
 
-https://github.com/AnkitPrakash12C/Multi_Agent_Coding_Assistant/blob/1e81f55fff72b33a1ff3f8b4b72e5f7be69dd7ff/Screenshot%20(403).png
+https://github.com/AnkitPrakash12C/Multi_Agent_Coding_Assistant/blob/main/Screenshot%20(403).png?raw=true
+
 1.  **The Error Finder:** This agent performs a quick code review. It takes the user's code and its job is to analyze it and create a simple, bulleted list of any syntax or logical errors it finds.
 
     ![Output of the Error Analysis Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(404).png)
