@@ -4,7 +4,7 @@ This project is a multi-agent AI system I built to act as a personal coding tuto
 
 The application was built using the CrewAI framework and is designed to run locally with Ollama.
 
-## The Problem I'm Solving
+## The Problem 
 
 When you're first learning to code, it's really common to get stuck. While you can often find a quick fix online, it's much harder to understand *why* your code was wrong in the first place. Without a clear explanation, you're likely to make the same mistake again.
 
