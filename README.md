@@ -54,18 +54,21 @@ To run this project on your own machine, you'll need to have Ollama installed an
 1.  **Install Ollama:** Follow the instructions on the [Ollama website](https://ollama.com/) to download and install it for your operating system.
 
 2.  **Pull the Llama 3.2 Model:** Once Ollama is running, open your terminal and run the following command to download the model used in this project:
-    ```bash
+
+    ```
     ollama run llama3.2
     ```
 
 3.  **Clone the Project:** Clone this repository to your local machine.
 
 4.  **Install Dependencies:** Navigate to the project folder, create a Python virtual environment, and install the required packages from the `requirements.txt` file:
-    ```bash
+
+    ```
     pip install -r requirements.txt
     ```
 
 5.  **Run the App:** Once the dependencies are installed and Ollama is running, you can start the Streamlit application:
-    ```bash
+
+    ```
     streamlit run main.py
     ```
