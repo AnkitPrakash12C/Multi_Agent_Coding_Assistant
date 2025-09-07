@@ -20,19 +20,19 @@ The application is powered by a team of four specialist AI agents that work toge
 
 1.  **The Error Finder:** This agent performs a quick code review. It takes the user's code and its job is to analyze it and create a simple, bulleted list of any syntax or logical errors it finds.
 
-    ![Output of the Error Analysis Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(404).png)
+![Alt text](https://raw.githubusercontent.com/AnkitPrakash12C/Multi_Agent_Coding_Assistant/1e81f55fff72b33a1ff3f8b4b72e5f7be69dd7ff/Screenshot%20(404).png)
 
 2.  **The Code Debugger:** This agent receives the original code snippet and the list of errors from the first agent. Its task is to correct all the identified issues and provide a clean, fully functional version of the code.
 
-    ![Output of the Code Debugger Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(405).png)
+![Alt text](https://raw.githubusercontent.com/AnkitPrakash12C/Multi_Agent_Coding_Assistant/1e81f55fff72b33a1ff3f8b4b72e5f7be69dd7ff/Screenshot%20(405).png)
 
 3.  **The Concept Explainer:** This is the explainer in the group. It looks at the original errors and the corrected code to identify the main programming concept the user was struggling with (for example, handling "edge cases" like division by zero). It then provides a simple, beginner-friendly explanation of that concept.
 
-    ![Output of the Concept Explainer Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(406).jpg)
+![Alt text](https://raw.githubusercontent.com/AnkitPrakash12C/Multi_Agent_Coding_Assistant/1e81f55fff72b33a1ff3f8b4b72e5f7be69dd7ff/Screenshot%20(406).png)
 
 4.  **The Assignment Generator:** To complete the learning loop, this final agent takes the concept that was just explained and creates a brand-new practice problem. Also added a download button, so the user can easily save this assignment as a `.txt` file to work on later.
 
-    ![Output of the Practice Assignment Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(407).png)
+![Alt text](https://raw.githubusercontent.com/AnkitPrakash12C/Multi_Agent_Coding_Assistant/1e81f55fff72b33a1ff3f8b4b72e5f7be69dd7ff/Screenshot%20(407).png)
 
 ## Technology Stack
 
