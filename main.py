@@ -13,7 +13,7 @@ from CodingTasks import (
 from crewai import Crew, Process
 import streamlit as st
 
-st.title("AI-Powered Coding Assistant")
+st.title("Multi-Agent Coding Assistant")
 
 st.markdown("""
 **Get help with your code from a team of AI experts!** Provide your code snippet below, and our AI agents will collaborate to:
