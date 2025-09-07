@@ -1,14 +1,14 @@
 # Multi-Agent Coding Assistant
 
-This project is a multi-agent AI system I built to act as a personal coding tutor. It's designed to help beginner programmers by analyzing their code, providing fixes, explaining the core concepts behind the errors, and even creating new practice problems to help them learn.
+This project is a multi-agent AI system built to act as a personal coding tutor. It's designed to help beginner programmers by analyzing their code, providing fixes, explaining the core concepts behind the errors, and even creating new practice problems to help them learn.
 
 The application was built using the CrewAI framework and is designed to run locally with Ollama.
 
 ## The Problem 
 
-I wanted to build a tool that does more than just debug code. The goal was to create a comprehensive learning loop where a student can get instant, expert-level help that not only fixes their immediate problem but also teaches them the core concepts so they can become a better programmer.
+I wanted to build a tool that does more than just debugging. The goal was to create a comprehensive learning loop where a student can get instant, expert-level help that not only fixes their immediate problem but also teaches them the core concepts so they can become a better programmer.
 
-This is where a multi-agent system really shines. Tutoring isn't just one job; it's a combination of different roles. You need someone to spot errors, someone to fix them, a teacher to explain things, and a mentor to give you practice. By creating a specialized AI agent for each of these roles, the system can provide a much deeper and more helpful learning experience than a single AI ever could.
+This is where a multi-agent system comes in place. Tutoring isn't just one job; it's a combination of different roles. You need someone to spot errors, someone to fix them, a teacher to explain things, and a mentor to give you practice. By creating a specialized AI agent for each of these roles, the system can provide a much deeper and more helpful learning experience than a single AI ever could.
 
 ## How It Works: Multiple-Agents
 
