@@ -14,17 +14,17 @@ I wanted to build a tool that does more than just debug code. The goal was to cr
 
 This is where a multi-agent system really shines. Tutoring isn't just one job; it's a combination of different roles. You need someone to spot errors, someone to fix them, a teacher to explain things, and a mentor to give you practice. By creating a specialized AI agent for each of these roles, the system can provide a much deeper and more helpful learning experience than a single AI ever could.
 
-## How It Works: A Team of AI Experts
+## How It Works: Multiple-Agents
 
 The application is powered by a team of four specialist AI agents that work together in a sequence to provide a complete analysis for the user.
 
-1.  **The Error Finder:** This agent acts like a senior developer performing a quick code review. It takes the user's code and its only job is to analyze it and create a simple, bulleted list of any syntax or logical errors it finds.
+1.  **The Error Finder:** This agent performs a quick code review. It takes the user's code and it's job is to analyze it and create a simple, bulleted list of any syntax or logical errors it finds.
 
 2.  **The Code Debugger:** This agent receives the original code snippet and the list of errors from the first agent. Its task is to correct all the identified issues and provide a clean, fully functional version of the code.
 
-3.  **The Concept Explainer:** This is the teacher in the group. It looks at the original errors and the corrected code to identify the main programming concept the user was struggling with (for example, handling "edge cases" like division by zero). It then provides a simple, beginner-friendly explanation of that concept.
+3.  **The Concept Explainer:** This is the explainer in the group. It looks at the original errors and the corrected code to identify the main programming concept the user was struggling with (for example, handling "edge cases" like division by zero). It then provides a simple, beginner-friendly explanation of that concept.
 
-4.  **The Assignment Generator:** To complete the learning loop, this final agent takes the concept that was just explained and creates a brand-new practice problem. I also added a handy download button, so the user can easily save this assignment as a `.txt` file to work on later.
+4.  **The Assignment Generator:** To complete the learning loop, this final agent takes the concept that was just explained and creates a brand-new practice problem. Also added a download button, so the user can easily save this assignment as a `.txt` file to work on later.
 
 ## Technology Stack
 
@@ -32,7 +32,7 @@ This project was built using a modern, open-source stack that is perfect for rap
 
 * **Agent Framework:** **CrewAI** was used to define the agents and orchestrate their collaborative workflow.
 * **Web UI Framework:** The entire user interface is built with **Streamlit**.
-* **LLM Service:** The agents are powered by **Ollama**, which allows for running powerful open-source models locally.
+* **LLM:** The agents are powered by **Ollama**, which allows for running powerful open-source models locally.
 * **Supporting Libraries:** The project also relies on the **LangChain** library and its various components to connect the agents to the language model.
 
 ## LLM Selection
