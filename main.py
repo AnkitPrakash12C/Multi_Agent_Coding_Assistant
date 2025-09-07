@@ -12,7 +12,7 @@ import streamlit as st
 st.title("AI-Powered Coding Assistant")
 
 st.markdown("""
-💡 **Get help with your code from a team of AI experts!** Provide your code snippet below, and our AI agents will collaborate to:
+**Get help with your code from a team of AI experts!** Provide your code snippet below, and our AI agents will collaborate to:
 1.  **Find Errors:** Identify syntax and logical mistakes. 
 2.  **Debug Code:** Provide a corrected, working version. 
 3.  **Explain Concepts:** Break down the core programming concepts. 
