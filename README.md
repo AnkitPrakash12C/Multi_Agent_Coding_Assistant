@@ -1,7 +1,5 @@
 # Multi-Agent Coding Assistant
 
-# AI-Powered Coding Assistant
-
 This project is a multi-agent AI system I built to act as a personal coding tutor. It's designed to help beginner programmers by analyzing their code, providing fixes, explaining the core concepts behind the errors, and even creating new practice problems to help them learn.
 
 The application was built using the CrewAI framework and is designed to run locally with Ollama.
@@ -16,15 +14,25 @@ This is where a multi-agent system really shines. Tutoring isn't just one job; i
 
 ## How It Works: Multiple-Agents
 
-The application is powered by a team of four specialist AI agents that work together in a sequence to provide a complete analysis for the user.
+The application is powered by a team of four specialist AI agents that work together in a sequence to provide a complete analysis for the user. First, the user inputs their code into the Streamlit interface.
 
-1.  **The Error Finder:** This agent performs a quick code review. It takes the user's code and it's job is to analyze it and create a simple, bulleted list of any syntax or logical errors it finds.
+![User Interface for the Multi-Agent Coding Assistant](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(403).jpg)
 
-2.  **The Code Debugger:** This agent receives the original code snippet and the list of errors from the first agent. Its task is to correct all the identified issues and provide a clean, fully functional version of the code.
+1.  **The Error Finder:** This agent performs a quick code review. It takes the user's code and its job is to analyze it and create a simple, bulleted list of any syntax or logical errors it finds.
 
-3.  **The Concept Explainer:** This is the explainer in the group. It looks at the original errors and the corrected code to identify the main programming concept the user was struggling with (for example, handling "edge cases" like division by zero). It then provides a simple, beginner-friendly explanation of that concept.
+    ![Output of the Error Analysis Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(404).png)
 
-4.  **The Assignment Generator:** To complete the learning loop, this final agent takes the concept that was just explained and creates a brand-new practice problem. Also added a download button, so the user can easily save this assignment as a `.txt` file to work on later.
+2.  **The Code Debugger:** This agent receives the original code snippet and the list of errors from the first agent. Its task is to correct all the identified issues and provide a clean, fully functional version of the code.
+
+    ![Output of the Code Debugger Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(405).png)
+
+3.  **The Concept Explainer:** This is the explainer in the group. It looks at the original errors and the corrected code to identify the main programming concept the user was struggling with (for example, handling "edge cases" like division by zero). It then provides a simple, beginner-friendly explanation of that concept.
+
+    ![Output of the Concept Explainer Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(406).jpg)
+
+4.  **The Assignment Generator:** To complete the learning loop, this final agent takes the concept that was just explained and creates a brand-new practice problem. Also added a download button, so the user can easily save this assignment as a `.txt` file to work on later.
+
+    ![Output of the Practice Assignment Agent](https://storage.googleapis.com/agent-tools-public-content/Screenshot%20(407).png)
 
 ## Technology Stack
 
@@ -45,21 +53,21 @@ This project was built using a modern, open-source stack that is perfect for rap
 
 To run this project on your own machine, you'll need to have Ollama installed and running.
 
-1.  **Install Ollama:** Follow the instructions on the [Ollama website](https://ollama.com/) to download and install it for your operating system.
+1.  **Install Ollama:** Follow the instructions on the [Ollama website](https://ollama.com/) to download and install it for your operating system.
 
-2.  **Pull the Llama 3.2 Model:** Once Ollama is running, open your terminal and run the following command to download the model used in this project:
-    ```bash
-    ollama run llama3.2
-    ```
+2.  **Pull the Llama 3.2 Model:** Once Ollama is running, open your terminal and run the following command to download the model used in this project:
+    ```bash
+    ollama run llama3.2
+    ```
 
-3.  **Clone the Project:** Clone this repository to your local machine.
+3.  **Clone the Project:** Clone this repository to your local machine.
 
-4.  **Install Dependencies:** Navigate to the project folder, create a Python virtual environment, and install the required packages from the `requirements.txt` file:
-    ```bash
-    pip install -r requirements.txt
-    ```
+4.  **Install Dependencies:** Navigate to the project folder, create a Python virtual environment, and install the required packages from the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-5.  **Run the App:** Once the dependencies are installed and Ollama is running, you can start the Streamlit application:
-    ```bash
-    streamlit run main.py
-    ```
+5.  **Run the App:** Once the dependencies are installed and Ollama is running, you can start the Streamlit application:
+    ```bash
+    streamlit run main.py
+    ```
