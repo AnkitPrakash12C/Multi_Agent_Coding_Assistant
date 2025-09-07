@@ -6,8 +6,6 @@ The application was built using the CrewAI framework and is designed to run loca
 
 ## The Problem 
 
-When you're first learning to code, it's really common to get stuck. While you can often find a quick fix online, it's much harder to understand *why* your code was wrong in the first place. Without a clear explanation, you're likely to make the same mistake again.
-
 I wanted to build a tool that does more than just debug code. The goal was to create a comprehensive learning loop where a student can get instant, expert-level help that not only fixes their immediate problem but also teaches them the core concepts so they can become a better programmer.
 
 This is where a multi-agent system really shines. Tutoring isn't just one job; it's a combination of different roles. You need someone to spot errors, someone to fix them, a teacher to explain things, and a mentor to give you practice. By creating a specialized AI agent for each of these roles, the system can provide a much deeper and more helpful learning experience than a single AI ever could.
